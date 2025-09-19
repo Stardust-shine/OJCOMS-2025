@@ -1,0 +1,21 @@
+{
+"LEARNING_RATE":  0.01,
+"BATCH_SIZE":     10,
+"MAX_EPOCHS":     1000,
+"N_TRAIN":        10,
+"MAX_N_TRAIN":    1000,
+"model_location": "./DNNmodel/model_demo.ckpt",
+
+"n_marco":   0,
+"n_pico":    4,
+"nUE_marco": 0,
+"nUE_pico":  5,
+"nTX_marco": 16,
+"nTX_pico":  8,
+"p_marco":   40,
+"p_pico":    1,
+"var_noise": 3.1623e-13,
+
+"n_hidden":  [20, 10, 10, 10],
+"n_output":  1
+}
